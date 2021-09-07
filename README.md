@@ -7,4 +7,13 @@ Para facilitar o desenvolimento configuramos um docker-compose com o framework s
 ## Instruções 
 
 - Executar Docker
+
     ` docker-compose up -d `
+
+- Acesso admin
+
+*Url:* http://localhost:1337/admin/
+
+*Usuario:* teste@teste.com
+
+*Senha:* Teste123
