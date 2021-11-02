@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organizations",
+  "info": {
+    "name": "Organization"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "document": {
+      "type": "string"
+    },
+    "legal_name": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "address_extra": {
+      "type": "string"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "max_students": {
+      "type": "biginteger"
+    },
+    "invite_code": {
+      "type": "string"
+    }
+  }
+}
