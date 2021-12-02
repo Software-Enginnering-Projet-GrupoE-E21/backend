@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "organizations",
   "info": {
-    "name": "Organization"
+    "name": "Organization",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -36,6 +37,12 @@
       "type": "biginteger"
     },
     "invite_code": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
       "type": "string"
     }
   }
