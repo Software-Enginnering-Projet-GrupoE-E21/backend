@@ -36,6 +36,10 @@
     "trail": {
       "model": "trails",
       "via": "modules"
+    },
+    "module_test": {
+      "via": "module",
+      "model": "module-tests"
     }
   }
 }
