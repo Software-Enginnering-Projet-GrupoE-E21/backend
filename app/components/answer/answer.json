@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_answer_answers",
+  "info": {
+    "name": "answer",
+    "icon": "check-double"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "correct": {
+      "type": "boolean"
+    }
+  }
+}
